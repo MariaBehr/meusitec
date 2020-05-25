@@ -1,0 +1,67 @@
+body {
+    font-family: "Times New Roman", serif;
+	background:#FFFAFA;
+	font-size: 120%;
+    line-height: 1.5   
+}
+
+.menu {
+	background:	#F8F8FF;
+	border: 3px solid black;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+#foto1 {
+    float: right;
+    width: 30%;
+    right: 50%;
+	box-sizing: border-box;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+p {
+    text-align: center;
+	text-align: justify;
+	padding: 4px;
+     
+}
+
+strong {
+    color: orange;
+}
+
+.rodape-pagina {
+    background-color: pink;
+    border: 2px solid black;
+    clear: both;
+	position: move;
+	bottom: 0;
+	left: 0;
+	width: 99.7%;
+}
